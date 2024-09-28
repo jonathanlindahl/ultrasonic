@@ -15,9 +15,11 @@ TODO: Add diagram
 Build using make.
 
 Insert the module with: sudo insmod ultrasonic.ko
+
 Check that the module has been inserted: sudo lsmod | grep ultrasonic
 
 To trigger a measurement use: echo "1" | sudo tee /dev/usnc_device
+
 To read the result of the measurement use: dmesg | grep ultrasonic
 
 To remove the module use: sudo rmmod ultrasonic
