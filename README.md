@@ -9,7 +9,9 @@ Future improvements:
 - Another userspace application could be used to regularly trigger measurements and only output when the distance changes from the last reading, resulting in a simple motion sensor.
 
 Raspberry pi pinout can be found here: https://pinout.xyz/
+
 Datasheet for the sensor can be found here: https://www.alldatasheet.com/datasheet-pdf/pdf/1132203/ETC2/HC-SR04.html
+
 TODO: Add diagram
 
 Build using make.
